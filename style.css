@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nova Flat", system-ui;
+    font-weight: 400;
+    font-style: normal;      
+}
+
+/* SMOOTH SCROLLER */
+html {
+    scroll-behavior: smooth;
+  }
+/* SMOOTH SCROLLER END */
+
+/* DESING SCROLLBAR */
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border: 2px solid red;
+    border-radius: 10px;
+  }
+/* SCROLLBAR DESINGNING END */
+
+/* NAVBAR CODING START */
+.navbar{
+    background: linear-gradient(to top, #f305e7, #6c05f3, #f3640549);
+    color: white;
+}
+
+.logo_text{
+    color: yellow;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    transition: 1s;
+}
+
+.logo_text:hover{
+    color: #000;
+}
+
+.list{
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    list-style: none;
+    transition: 0.3s;
+}
+
+.list:hover{
+    color: #000;
+    transform: rotate(10deg);
+}
+
+.top_icon{
+    padding-left: 20px;
+    color: yellow;
+}
+
+#dark-btn{
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    outline: none;
+    height: 30px;
+    width: 100px;
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow: 3px 5px 0px 0px #010f2e;
+    transition: 0.5s;
+}
+
+/* NAVBAR CODING END */
+
+/* HERO SECTION CODING START */
+#hero_section{
+    margin-top: 20px;
+}
+
+.hero-container{
+    border: 3px solid rgba(235, 234, 234, 0.829);
+    box-shadow: 5px 5px 25px rgb(175, 174, 174);
+}
+
+#section_text{
+    font-size: 55px;
+    color: #7E22CE;
+    text-transform: uppercase;
+}
+
+#section_description{
+    font-size: 18px;
+    font-style: italic;
+}
+
+#hero-field{
+    caret-color: rgb(255, 30, 0);
+    background: #fff;
+}
+
+#hero-field:focus{
+    border: 3px double #f305e7;
+}
+
+#button{
+    background:linear-gradient(to right, #6c05f3, #f305e7);
+    font-style: italic;
+    transition: 0.3s;
+}
+
+#button:hover{
+    box-shadow: inset 180px 0px 0px #000;  
+}
+
+#google-play{
+    background:linear-gradient(to right, #6c05f3, #f305e7);
+    color: white;
+    border: 2px solid #6c05f3;
+    box-shadow: -3px -3px 3px 3px #000;
+    transition: 0.5s;
+}
+
+#google-play:hover{
+    background: rgba(156, 156, 156, 0.247);
+    color: #000;
+    box-shadow: -3px 3px 3px 3px #000;
+}
+
+#app-store{
+    background: rgba(156, 156, 156, 0.247);
+    color: #000;
+    box-shadow: 3px -3px 3px 3px #000;
+    transition: 0.5s;
+}
+
+#app-store:hover{
+    background:linear-gradient(to right, #6c05f3, #f305e7);
+    color: white;
+    border: 2px solid #fff;
+    box-shadow: 3px 3px 3px 3px #000;
+    transition: 0.5s;
+}
+
+/* HERO SECTION CODING END */
+
+/* E-COMMERCE HEADING START */
+
+#product-heading{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+/* E-COMMERCE HEADING START */
+
+/* E-COMMERCE CODING START */
+
+#first_ecommerce{
+    margin-top: 10px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.grid-item{
+    border: 2px solid #d8d7d7;
+    padding: 20px;
+    transition: 0.3s;
+     border: 3px solid rgba(235, 234, 234, 0.829);
+    box-shadow: 5px 5px 25px rgb(175, 174, 174);
+}
+
+.grid-item:hover{
+    box-shadow: 3px 3px 5px 3px #cecccc;
+    transform: translateY(5px);
+    padding: 20px;
+}
+
+#product_image_div{  
+    padding: 3px;
+    box-shadow: 2px 2px 5px 2px #d8d8d8;
+    border: 2px solid #d8d7d7;
+}
+
+#product_image{
+    transition: 0.3s;
+}
+
+#product_image:hover{
+   transform: scale(0.9);
+   cursor: pointer;
+}
+
+#product_name{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#product_rate{
+    color: #000;
+    font-size: medium;
+}
+
+.buy_btn{
+    background:linear-gradient(to right, #6c05f3, #f305e7);
+    color: #fff;
+    height: 35px;
+    width: 150px;
+    transition: 0.5s;
+}
+
+.buy_btn:hover{
+    box-shadow: inset -180px 0px 0px #000;
+}
+
+#second_ecommerce{
+    margin-top: 20px;
+}
+
+/* E-COMMERCE CODING END */
+
+/* TEAM CODING START */
+
+#team-section{
+    margin-top: 20px;
+}
+
+.social-media{
+    font-size: 20px;
+    font-size: 23px;
+}
+
+.calling{
+    color: #1fa0eb;
+}
+
+.whatsapp{
+    color: #2cdb09;
+}
+
+.facebook{
+    color: #3771dd;
+}
+
+.team-container{
+    border: 3px solid rgba(235, 234, 234, 0.829);
+    box-shadow: 5px 5px 25px rgb(175, 174, 174);
+    background: #fff;
+}
+
+/* TEAM CODING END */
+
+/* CONTACT CODING START */
+
+#contact-section{
+    margin-top: 20px;
+}
+
+.contact-container{
+    border: 3px solid rgba(235, 234, 234, 0.829);
+    box-shadow: 5px 5px 25px rgb(175, 174, 174);
+    background: #fff;
+}
+
+.contact-btn{
+    background:linear-gradient(to right, #6c05f3, #f305e7);
+    transition: 0.3s;
+}
+
+.contact-btn:hover{
+    box-shadow: inset -180px 0px 0px #000;
+}
+
+#name, #email, #message{
+    caret-color: rgb(255, 30, 0);
+    background: #fff;
+}
+
+#name:focus{
+    border: 3px double #f305e7;
+}
+#email:focus{
+    border: 3px double #f305e7;
+}
+#message:focus{
+    border: 3px double #f305e7;
+}
+
+/* CONTACT CODING END */
+
+/* MAP CODING START */
+
+#map-section{
+    margin-top: 20px;
+}
+
+.map-container{
+    border: 3px solid rgba(235, 234, 234, 0.829);
+    box-shadow: 5px 5px 25px rgb(175, 174, 174);
+    background: #fff;
+}
+
+/* MAP CODING END */
+
+/* FOOTER CODING START */
+
+#footer-section{
+    margin-top: 20px;
+    background: #09042b;
+}
+
+#footer-facebook, #footer-twitter, #footer-linkedin, #footer-instagram{
+    padding: 5px;
+    color: #fff;
+    font-size: 22px;
+    transition: 0.3s;
+}
+
+#footer-facebook:hover, #footer-twitter:hover, #footer-linkedin:hover, #footer-instagram:hover{
+    transform: scale(1.24);
+}
+
+/* FOOTER CODING END */

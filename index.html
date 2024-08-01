@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Tailblock link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css">
+    <!--FontawesomeIcon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap" rel="stylesheet">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="style.css">
+    <title>Shri Infotech Mp Online</title>
+</head>
+<body>
+
+<!-- Navbar Coding Start -->
+    <header class="text-gray-600 body-font navbar">
+        <div class="container nav-container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a href="#" class="ml-3 text-xl logo_text">SHRI INFOTECH</a>
+          <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5" href="index.html">
+              <li class="list">Home</li>
+            </a>
+            <a class="mr-5" href="#product-heading">
+              <li class="list">Products</li>
+            </a>
+            <a class="mr-5" href="#team-section">
+              <li class="list">About Us</li>
+            </a>
+            <a class="mr-5" href="#contact-section">
+              <li class="list">Contact Us</li>
+            </a>
+            
+          </nav>
+          
+          <span class="">
+           <button id="dark-btn">Dark</button>
+          </span>
+
+        </div>
+      </header>
+    <!-- Navbar Coding End -->
+
+    <!-- Hero Section Coding Start -->
+
+    <section class="text-gray-600 body-font" id="hero_section">
+        <div class="container hero-container px-5 mx-auto flex py-10 md:flex-row flex-col items-center" id="hero_container">
+          <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900" id="section_text">Shri Infotech</h1>
+            <h2 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900" id="mp_online">Mp Online & CSC Center</h2>
+            <p class="mb-8 leading-relaxed" id="section_description">SHRI INFOTECH Your trusted partner for comprehensive IT solutions and online services, dedicated to quality and customer satisfaction.</p>
+            <div class="flex w-full md:justify-start justify-center items-end">
+              <div class="relative mr-4 md:w-full lg:w-full xl:w-1/2 w-2/4">
+                <input type="text" id="hero-field" name="hero-field" placeholder="Search Products" class="w-full bg-gray-100 rounded border bg-opacity-50 border-gray-300 focus:ring-2 focus:ring-indigo-200 focus:bg-transparent focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+              </div>
+              <button class="inline-flex text-white border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg" id="button">Search Product</button>
+            </div>
+            <p class="text-sm mt-2 text-gray-500 mb-8 w-full"></p>
+            <div class="flex lg:flex-row md:flex-col">
+              <a href="https://play.google.com/store/apps/details?id=com.eclara" id="google-play" target="_blank" class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
+                  <i class="fa-brands fa-2x fa-google-play"></i>
+                <span class="ml-4 flex items-start flex-col leading-none" id="google_play">
+                  <span class="text-xs mb-1">GET IT ON</span>
+                  <span class="title-font font-medium">Google Play</span>
+                </span>
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=com.eclara" id="app-store" target="_blank" class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center lg:ml-4 md:ml-0 ml-4 md:mt-4 mt-0 lg:mt-0 hover:bg-gray-200 focus:outline-none">
+                <i class="fa-brands fa-2x fa-apple"></i>
+                <span class="ml-4 flex items-start flex-col leading-none" id="app_store">
+                  <span class="text-xs mb-1">Download on the</span>
+                  <span class="title-font font-medium">App Store</span>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <img class="object-cover object-center rounded" alt="Computer Image" src="https://images.unsplash.com/photo-1619183744799-68f1fd8f1edb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+          </div>
+        </div>
+      </section>
+      <!-- Hero Section Coding End -->
+
+      <!-- E-commerce Heading Start -->
+<div class="container mx-auto text-center" id="product-heading">
+  <h1 class="text-5xl font-medium text-gray-900">Shopping Products</h1>
+</div>
+<!-- E-commerce Heading End -->
+
+      <!-- Ecommerce Coding Start -->
+      <section class="grid-container container" id="first_ecommerce">
+
+        <div class="grid-item first_grid">
+          <div id="product_image_div">
+            <img src="img/camera.png" alt="Camera Image" id="product_image">
+          </div>
+          <center>
+          <p id="product_name">WEB CAMERA</p>
+            <small id="product_rate">Rs 800 <strike> 5%</strike></small>
+            <br>
+            <a href="https://api.whatsapp.com/send?phone=919754542000&text=I want to buy a web camera">
+              <button class="buy_btn">Buy Now</button>
+             </a>
+          </center>
+        </div>
+
+        <div class="grid-item first_grid">
+          <div id="product_image_div">
+            <img src="img/mouse.png" alt="Mouse Image" id="product_image">
+          </div>
+          <center>
+          <p id="product_name">MOUSE</p>
+            <small id="product_rate">Rs 180 <strike> 5%</strike></small>
+            <br>
+            <a href="https://api.whatsapp.com/send?phone=919754542000&text=I want to buy a mouse">
+              <button class="buy_btn">Buy Now</button>
+             </a>
+          </center>
+        </div>
+
+        <div class="grid-item first_grid">
+          <div id="product_image_div">
+            <img src="img/cartridge.png" alt="Cartridge Image" id="product_image">
+          </div>
+          <center>
+          <p id="product_name">CARTRIDGE TONER</p>
+            <small id="product_rate">Rs 600 <strike> 5%</strike></small>
+            <br>
+            <a href="https://api.whatsapp.com/send?phone=919754542000&text=I want to buy a cartridge">
+              <button class="buy_btn">Buy Now</button>
+             </a>
+          </center>
+        </div>
+
+        <div class="grid-item first_grid">
+          <div id="product_image_div">
+            <img src="img/keyboard.png" alt="Keyboard Image" id="product_image">
+          </div>
+          <center>
+          <p id="product_name">KEYBOARD</p>
+            <small id="product_rate">Rs 300 <strike> 5%</strike></small>
+            <br>
+            <a href="https://api.whatsapp.com/send?phone=919754542000&text=I want to buy a keyboard">
+              <button class="buy_btn">Buy Now</button>
+             </a>
+          </center>
+        </div>
+
+        </section>
+
+
+        <section class="grid-container container" id="second_ecommerce">
+
+        <div class="grid-item first_grid">
+          <div id="product_image_div">
+            <img src="img/vga.png" alt="VGA Cable" id="product_image">
+          </div>
+          <center>
+          <p id="product_name">VGA CABLE</p>
+            <small id="product_rate">Rs 150 <strike> 5%</strike></small>
+            <br>
+            <a href="https://api.whatsapp.com/send?phone=919754542000&text=I want to buy a VGA cable">
+              <button class="buy_btn">Buy Now</button>
+             </a>
+          </center>
+        </div>
+
+        <div class="grid-item first_grid">
+          <div id="product_image_div">
+            <img src="img/usb.png" alt="USB Hub Image" id="product_image">
+          </div>
+          <center>
+          <p id="product_name"> USB HUB</p>
+            <small id="product_rate">Rs 380 <strike> 5%</strike></small>
+            <br>
+            <a href="https://api.whatsapp.com/send?phone=919754542000&text=I want to buy a USB hub">
+              <button class="buy_btn">Buy Now</button>
+             </a>
+          </center>
+        </div>
+
+        <div class="grid-item first_grid">
+          <div id="product_image_div">
+            <img src="img/antivirus.png" alt="Antivirus Image" id="product_image">
+          </div>
+          <center>
+          <p id="product_name"> ANTIVIRUS</p>
+            <small id="product_rate">Rs 600 <strike> 5%</strike></small>
+            <br>
+            <a href="https://api.whatsapp.com/send?phone=919754542000&text=I want to buy a antivirus">
+              <button class="buy_btn">Buy Now</button>
+             </a>
+          </center>
+        </div>       
+
+        <div class="grid-item first_grid">
+          <div id="product_image_div">
+            <img src="img/stationery.png" alt="All Stationery Images" id="product_image">
+          </div>
+          <center>
+          <p id="product_name"> ALL STATIONERY</p>
+            <small id="product_rate">Rs ... <strike> 5%</strike></small>
+            <br>
+            <a href="https://api.whatsapp.com/send?phone=919754542000&text=Hii Ravi Gupta">
+              <button class="buy_btn">Buy Now</button>
+             </a>
+          </center>
+        </div>
+        
+       </section>
+
+      <!-- E-commerce Coding End -->
+
+      <!-- Team Coding Start -->
+      <section class="text-gray-600 body-font" id="team-section">
+        <div class="container team-container p-5 py-2 mx-auto" id="meet_container">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1 class="text-5xl font-medium title-font mb-2 text-gray-900 tracking-widest" id="our_team">Our Team</h1>
+            <p class="lg:w-2/3 text-2xl mx-auto leading-relaxed text-base">Come meet our dedicated team</p>
+          </div>
+          <div class="flex flex-wrap -m-4">
+           
+            
+            <div class="p-4 lg:w-1/2">
+              <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                <img alt="Team Ravi Image" class="flex-shrink-0 rounded-lg border w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="img/ravi.jpg">
+                <div class="flex-grow sm:pl-8">
+                  <h2 class="title-font font-medium text-2xl text-gray-900" id="ravi_name">Ravi Gupta</h2>
+                  <h3 class="text-gray-500 text-lg mb-3">Shop Owner</h3>
+                  <p class="mb-4">Welcome to SHRI INFOTECH We offer quality products and exceptional service. Visit us today!</p>
+                  <span class="inline-flex">
+                    <a href="tel:+919754542000" class="text-gray-500 px-2">
+                      <i class="fa-solid fa-phone social-media calling"></i>                     
+                    </a>
+                    <a href="https://wa.me/919754542000" class="ml-2 text-gray-500 px-2">
+                      <i class="fa-brands 2 fa-whatsapp social-media whatsapp"></i>
+                    </a>
+                    <a href="https://www.facebook.com/shriinfotechsbl/" class="ml-2 text-gray-500 px-2">
+                      <i class="fa-brands fa-facebook social-media facebook"></i>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/2">
+              <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                <img alt="Team Shubham Image" class="flex-shrink-0 rounded-lg border w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="img/shubham.jpg">
+                <div class="flex-grow sm:pl-8">
+                  <h2 class="title-font font-medium text-2xl text-gray-900" id="shubham_name">Shubham Jaga</h2>
+                  <h3 class="text-gray-500 text-lg mb-3">Wed Designer & Computer Operator</h3>
+                  <p class="mb-4">I work at SHRI INFOTECH Store, where we provide excellent service and quality products. join us!</p>
+                  <span class="inline-flex">
+                    <a href="tel:+916351689753" class="text-gray-500 px-2">
+                      <i class="fa-solid fa-phone social-media calling"></i>
+                    </a>
+                    <a href="https://wa.me/916351689753" class="ml-2 text-gray-500 px-2">
+                      <i class="fa-brands fa-whatsapp social-media whatsapp"></i>
+                    </a>
+                    <a href="https://www.facebook.com/shubhamjaga001" class="ml-2 text-gray-500 px-2">
+                      <i class="fa-brands fa-facebook social-media facebook"></i>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Team Coding End -->
+      
+      <!-- Contact Coding Start -->
+      <section class="text-gray-600 body-font relative" id="contact-section">
+        <div class="container contact-container mx-auto" id="contact_container">
+          <div class="flex flex-col text-center w-full mb-10 py-2">
+            <h1 class="sm:text-5xl text-2xl font-medium title-font mb-4 text-gray-900" id="contact_us">Contact Us</h1>
+            <p class="lg:w-2/3 text-2xl mx-auto leading-relaxed text-base">Contact us any time</p>
+          </div>        
+          <div class="lg:w-1/2 md:w-2/3 mx-auto">
+            <div class="flex flex-wrap -m-2">
+              <div class="p-2 w-1/2">
+                <div class="relative">
+                  <label for="name" class="leading-7 text-xl text-gray-600">Name</label>
+                  <input type="text" placeholder="Enter Your Name" id="name" name="name" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+              </div>
+              <div class="p-2 w-1/2">
+                <div class="relative">
+                  <label for="email" class="leading-7 text-xl text-gray-600">Email</label>
+                  <input type="email" placeholder="Enter Your E-mail" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+              </div>
+              <div class="p-2 w-full">                
+                <div class="relative">
+                  <label for="message" class="leading-7 text-xl text-gray-600">Message</label>
+                  <textarea placeholder="Enter Your Message" id="message" name="message" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                </div>
+              </div>
+              <a href="https://api.whatsapp.com/send?phone=919754542000&text=Hii Ravi Gupta I Need Your Help" class="p-5 w-full">
+                <button class="flex mx-auto text-white bg-indigo-500 border-0 py-1 px-14 focus:outline-none hover:bg-indigo-600  text-lg contact-btn">Send</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact Coding End -->
+
+      <!-- Map Coding Start -->
+
+      <section class="body-font justify-center relative map_section" id="map-section">
+        <div class="container map-container mx-auto p-3 py-1 flex sm:flex-nowrap flex-wrap" id="map_container">
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <img class="object-cover object-center rounded border px-3" alt="Sabalgarh Image" src="img/sabalgarh.png">
+          </div>
+          <div class="lg:w-full md:w-full bg-gray-100 rounded-lg overflow-hidden sm:mr-0 p-1">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7156.760473534048!2d77.40951318600744!3d26.249320047739545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39716d30f1186707%3A0x8f4f7ebc133cef3f!2z4KS24KWN4KSw4KWAIOCkh-CkqOCljeCkq-Cli-Ckn-Clh-CklQ!5e0!3m2!1shi!2sin!4v1719600316022!5m2!1shi!2sin" 
+                    width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>    
+          </div>          
+        </div>
+      </section>
+      
+      <!-- Map Coding End-->
+       
+      <!-- Footer Coding Start -->
+      <footer class="text-gray-600 body-font" id="footer-section">
+        <div class="py-4">
+          <div class="container py- mx-auto flex items-center sm:flex-row flex-col">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+              
+              <span class="ml-3 text-xl">SHRI INFOTECH</span>
+            </a>
+            <p class="text-sm text-white sm:ml-6 sm:mt-0 mt-4">© 2024 SHRIINFOTECH
+              <a href="http://shriinfotechsbl.co.in" rel="noopener noreferrer" class="text-white ml-1" target="_blank">Our Website</a>
+              <a href="https://shubhamjaga.42web.io" rel="noopener noreferrer" class="text-white ml-1" target="_blank">Website Developer</a>
+            </p>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+              <a href="https://www.facebook.com/shriinfotechsbl" target="_blank" class="text-gray-500">
+                <i class="fa-brands fa-facebook" id="footer-facebook"></i>
+              </a>
+              <a href="https://www.twitter.com/shubham_jaga" target="_blank" class="ml-3 text-gray-500">
+                <i class="fa-brands fa-x-twitter" id="footer-twitter"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/shubhamjaga001" target="_blank" class="ml-3 text-gray-500">
+                <i class="fa-brands fa-linkedin" id="footer-linkedin"></i>
+              </a>
+              <a href="https://www.instagram.com/r_gsbl3" target="_blank" class="ml-3 text-gray-500">
+                <i class="fa-brands fa-instagram" id="footer-instagram"></i>
+              </a>
+            </span>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer Coding End -->
+
+<script src="script.js"></script>      
+</body>
+</html>
